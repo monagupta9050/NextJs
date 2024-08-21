@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Anton&family=Fascinate&family=Kaushan+Script&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+    font-family: "Kaushan Script", 'cursive';
+}

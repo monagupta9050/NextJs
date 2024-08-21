@@ -9,18 +9,31 @@ import Products from "@/Components/Products";
 
 
 export default function Home() {
-  return (
-    <>
-      <Navbar />
-      <HeroSection />
-      <Card />
-      <OrderSec />
-      <Products />
-      <Banner />
-      <Client />
-      <Form />
-      
-
-    </>
-  );
+    return (
+        <>
+          <Navbar />
+         
+              <HeroSection />
+            
+          <Card />
+          <OrderSec />
+          <Products />
+          <Banner />
+          <Client />
+          <Form />
+        </>
+    );
 }
+
+// import Animated from "@/Components/Animated";
+// const HomePage = () => {
+//   return (
+//     <div>
+//       <Animated />
+    
+//       <h1>Hello, Next.js with GSAP!</h1>
+//     </div>
+//   );
+// };
+
+// export default HomePage;
